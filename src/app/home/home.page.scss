@@ -1,0 +1,88 @@
+.main{
+    background-color:black;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+}
+.line{
+    width: 100%;
+    height: calc(100%/4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.item {
+    box-sizing: border-box;
+    width: calc(100%/3);
+    height:65%;
+    margin: 5%;
+    background-color: rgb(255, 100, 100);
+    border-radius: 10px;
+    border:10px solid rgb(255, 75, 75);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.item:active{
+    background-color: rgb(100, 255, 100);
+    border:10px solid rgb(50, 255, 50);
+}
+
+
+#pad1{
+    background-color: rgb(90, 130, 255);
+    border:10px solid rgb(0, 50, 200);
+
+}
+
+#pad1:active{
+    background-color: rgb(255, 238, 0);
+    border:10px solid rgb(140, 200, 0); 
+}
+
+#pad2{
+    background-color: rgb(90, 130, 255);
+    border:10px solid rgb(0, 50, 200);
+
+}
+#pad2:active{
+    background-color: rgb(255, 238, 0);
+    border:10px solid rgb(140, 200, 0); 
+}
+#pad3{
+    background-color: rgb(90, 130, 255);
+    border:10px solid rgb(0, 50, 200);
+
+}
+#pad3:active{
+    background-color: rgb(255, 238, 0);
+    border:10px solid rgb(140, 200, 0); 
+}
+#pad4{
+
+}
+#pad5{
+
+}
+#pad6{
+
+}
+#pad7{
+
+}
+#pad8{
+
+}
+#pad9{
+
+}
+#pad10{
+
+}
+#pad11{
+  
+}
+#pad12{
+  
+}
